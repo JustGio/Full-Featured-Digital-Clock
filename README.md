@@ -1,8 +1,12 @@
 # Full-Featured-Digital-Clock
 
+
 **PmodOLED demo and IP files must be added to module folder for the OLED to work**
 
-**digital clock code**
+
+
+
+**Digital clock code**
 ```vhdl
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
@@ -1349,3 +1353,7 @@ timer_pause,counter_pause,set_time_counter,time_counter,rst);
 
 end package package_state_machine;
 ```
+
+
+**FSM Diagram**
+![FSM](img/fsm_diagram.PNG) 
